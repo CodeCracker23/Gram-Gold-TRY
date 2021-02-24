@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gold" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gram Gold" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69J-ho-Joy">
+                                <rect key="frame" x="31" y="9" width="236.5" height="87.5"/>
+                                <color key="backgroundColor" red="0.10676337029999999" green="0.2587877214" blue="0.27919051049999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="74"/>
+                                <color key="textColor" red="0.42185717820000002" green="0.87842029330000004" blue="0.87417626380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.75" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" systemColor="systemTealColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GP-KG-nu9">
+                                <rect key="frame" x="279" y="28" width="65" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="ama-x9-iT3"/>
+                                </constraints>
+                                <state key="normal" image="periodic-table-of-elements-gold-au-gold-on-black-serge-averbukh">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="medium"/>
+                                </state>
+                                <state key="highlighted" image="kisspng-california-gold-rush-gold-as-an-investment-gold-ba-gold-bar-5b49cb1f003c32.968320501531562783001"/>
+                                <connections>
+                                    <action selector="refreshTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="52O-gR-i8b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.1067944542" green="0.26270899180000001" blue="0.28311166170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9GP-KG-nu9" firstAttribute="leading" secondItem="69J-ho-Joy" secondAttribute="trailing" constant="11.5" id="2GW-oV-bNZ"/>
+                            <constraint firstItem="69J-ho-Joy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="5dr-eU-ZoQ"/>
+                            <constraint firstItem="69J-ho-Joy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="QZX-P3-8bh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9GP-KG-nu9" secondAttribute="bottom" constant="580" id="YIb-rp-ETa"/>
+                            <constraint firstItem="9GP-KG-nu9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="28" id="x8R-eR-eV1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myButton" destination="9GP-KG-nu9" id="G3D-Ev-wY2"/>
+                        <outlet property="priceLabel" destination="69J-ho-Joy" id="MOn-03-M0f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="58.920539730134934"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kisspng-california-gold-rush-gold-as-an-investment-gold-ba-gold-bar-5b49cb1f003c32.968320501531562783001" width="260" height="260"/>
+        <image name="periodic-table-of-elements-gold-au-gold-on-black-serge-averbukh" width="900" height="900"/>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

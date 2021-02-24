@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7A17A968A3F01E0BCCA55E /* Pods_Gram_Altin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853A7076B7F4449E3FB65190 /* Pods_Gram_Altin.framework */; };
+		5C19849024D3DC3B00F219CB /* Gold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C19848F24D3DC3B00F219CB /* Gold.swift */; };
+		5C19849224D3F7E300F219CB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C19849124D3F7E300F219CB /* WebKit.framework */; };
+		5C2236CA24CEBC790067C1A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2236C924CEBC790067C1A8 /* AppDelegate.swift */; };
+		5C2236CC24CEBC790067C1A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2236CB24CEBC790067C1A8 /* SceneDelegate.swift */; };
+		5C2236CE24CEBC790067C1A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2236CD24CEBC790067C1A8 /* ViewController.swift */; };
+		5C2236D124CEBC790067C1A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2236CF24CEBC790067C1A8 /* Main.storyboard */; };
+		5C2236D324CEBC7C0067C1A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2236D224CEBC7C0067C1A8 /* Assets.xcassets */; };
+		5C2236D624CEBC7C0067C1A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2236D424CEBC7C0067C1A8 /* LaunchScreen.storyboard */; };
+		5CCF5EE024D1D244007B0B61 /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF5EDF24D1D244007B0B61 /* FetchRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		465EF2243DDD1CCD695C5DEF /* Pods-Gram-Altin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gram-Altin.debug.xcconfig"; path = "Target Support Files/Pods-Gram-Altin/Pods-Gram-Altin.debug.xcconfig"; sourceTree = "<group>"; };
+		5C19848F24D3DC3B00F219CB /* Gold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gold.swift; sourceTree = "<group>"; };
+		5C19849124D3F7E300F219CB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5C2236C624CEBC790067C1A8 /* Gold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2236C924CEBC790067C1A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C2236CB24CEBC790067C1A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C2236CD24CEBC790067C1A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C2236D024CEBC790067C1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C2236D224CEBC7C0067C1A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C2236D524CEBC7C0067C1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C2236D724CEBC7C0067C1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CCF5EDF24D1D244007B0B61 /* FetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequest.swift; sourceTree = "<group>"; };
+		853A7076B7F4449E3FB65190 /* Pods_Gram_Altin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gram_Altin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF62C91E743246F561C9F505 /* Pods-Gram-Altin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gram-Altin.release.xcconfig"; path = "Target Support Files/Pods-Gram-Altin/Pods-Gram-Altin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C2236C324CEBC790067C1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C19849224D3F7E300F219CB /* WebKit.framework in Frameworks */,
+				2F7A17A968A3F01E0BCCA55E /* Pods_Gram_Altin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AFADA413EB9A99FEB481E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C19849124D3F7E300F219CB /* WebKit.framework */,
+				853A7076B7F4449E3FB65190 /* Pods_Gram_Altin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C2236BD24CEBC780067C1A8 = {
+			isa = PBXGroup;
+			children = (
+				5C2236C824CEBC790067C1A8 /* Gram-Altin */,
+				5C2236C724CEBC790067C1A8 /* Products */,
+				AF5AE36F51A1FAA6254C00DA /* Pods */,
+				01AFADA413EB9A99FEB481E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C2236C724CEBC790067C1A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C2236C624CEBC790067C1A8 /* Gold.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C2236C824CEBC790067C1A8 /* Gram-Altin */ = {
+			isa = PBXGroup;
+			children = (
+				5C2236C924CEBC790067C1A8 /* AppDelegate.swift */,
+				5C2236CB24CEBC790067C1A8 /* SceneDelegate.swift */,
+				5C2236CD24CEBC790067C1A8 /* ViewController.swift */,
+				5C19848F24D3DC3B00F219CB /* Gold.swift */,
+				5CCF5EDF24D1D244007B0B61 /* FetchRequest.swift */,
+				5C2236CF24CEBC790067C1A8 /* Main.storyboard */,
+				5C2236D224CEBC7C0067C1A8 /* Assets.xcassets */,
+				5C2236D424CEBC7C0067C1A8 /* LaunchScreen.storyboard */,
+				5C2236D724CEBC7C0067C1A8 /* Info.plist */,
+			);
+			path = "Gram-Altin";
+			sourceTree = "<group>";
+		};
+		AF5AE36F51A1FAA6254C00DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				465EF2243DDD1CCD695C5DEF /* Pods-Gram-Altin.debug.xcconfig */,
+				CF62C91E743246F561C9F505 /* Pods-Gram-Altin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C2236C524CEBC790067C1A8 /* Gram-Altin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2236DA24CEBC7C0067C1A8 /* Build configuration list for PBXNativeTarget "Gram-Altin" */;
+			buildPhases = (
+				B5E368BB1C3CBD46503BD9D4 /* [CP] Check Pods Manifest.lock */,
+				5C2236C224CEBC790067C1A8 /* Sources */,
+				5C2236C324CEBC790067C1A8 /* Frameworks */,
+				5C2236C424CEBC790067C1A8 /* Resources */,
+				F376C38FBDB4AFE5DBCEE0C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gram-Altin";
+			productName = "Gram-Altin";
+			productReference = 5C2236C624CEBC790067C1A8 /* Gold.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C2236BE24CEBC780067C1A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "M. Raşit Öner";
+				TargetAttributes = {
+					5C2236C524CEBC790067C1A8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 5C2236C124CEBC780067C1A8 /* Build configuration list for PBXProject "Gram-Altin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C2236BD24CEBC780067C1A8;
+			productRefGroup = 5C2236C724CEBC790067C1A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C2236C524CEBC790067C1A8 /* Gram-Altin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C2236C424CEBC790067C1A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2236D624CEBC7C0067C1A8 /* LaunchScreen.storyboard in Resources */,
+				5C2236D324CEBC7C0067C1A8 /* Assets.xcassets in Resources */,
+				5C2236D124CEBC790067C1A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5E368BB1C3CBD46503BD9D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gram-Altin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F376C38FBDB4AFE5DBCEE0C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gram-Altin/Pods-Gram-Altin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gram-Altin/Pods-Gram-Altin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gram-Altin/Pods-Gram-Altin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2236C224CEBC790067C1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCF5EE024D1D244007B0B61 /* FetchRequest.swift in Sources */,
+				5C2236CE24CEBC790067C1A8 /* ViewController.swift in Sources */,
+				5C19849024D3DC3B00F219CB /* Gold.swift in Sources */,
+				5C2236CA24CEBC790067C1A8 /* AppDelegate.swift in Sources */,
+				5C2236CC24CEBC790067C1A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C2236CF24CEBC790067C1A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C2236D024CEBC790067C1A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C2236D424CEBC7C0067C1A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C2236D524CEBC7C0067C1A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C2236D824CEBC7C0067C1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C2236D924CEBC7C0067C1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C2236DB24CEBC7C0067C1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465EF2243DDD1CCD695C5DEF /* Pods-Gram-Altin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6423XDJ644;
+				INFOPLIST_FILE = "Gram-Altin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashid.Gram-Altin";
+				PRODUCT_NAME = Gold;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C2236DC24CEBC7C0067C1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF62C91E743246F561C9F505 /* Pods-Gram-Altin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6423XDJ644;
+				INFOPLIST_FILE = "Gram-Altin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashid.Gram-Altin";
+				PRODUCT_NAME = Gold;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C2236C124CEBC780067C1A8 /* Build configuration list for PBXProject "Gram-Altin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2236D824CEBC7C0067C1A8 /* Debug */,
+				5C2236D924CEBC7C0067C1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2236DA24CEBC7C0067C1A8 /* Build configuration list for PBXNativeTarget "Gram-Altin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2236DB24CEBC7C0067C1A8 /* Debug */,
+				5C2236DC24CEBC7C0067C1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C2236BE24CEBC780067C1A8 /* Project object */;
+}
